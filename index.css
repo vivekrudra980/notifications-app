@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+.notifications-app-container {
+  background-color: black;
+  min-height: 100vh;
+  font-family: "Roboto";
+}
+.heading {
+  color: red;
+}
+.notification-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.notification-item {
+  height: 60px;
+  max-width: 700px;
+  width: 80vw;
+  padding: 15px;
+  margin: 15px;
+  display: flex;
+  flex-direction: row;
+}
+.info-notification {
+  background-color: #0b69ff;
+}
+.success-notification {
+  background-color: #2dca73;
+}
+.warning-notification {
+  background-color: #ffb800;
+}
+.error-notification {
+  background-color: #ff0b37;
+}
